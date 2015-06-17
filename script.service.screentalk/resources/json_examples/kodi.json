@@ -1,0 +1,48 @@
+// Typical results if something is playing (or paused):
+
+// Movie
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "result": {
+        "item": {
+            "episode": -1,
+            "file": "smb://DISKSTATION/HD Video/Inside.Llewyn.Davis.2013.1080p.BluRay.x264.anoXmous/Inside.Llewyn.Davis.2013.1080p.BluRay.x264.anoXmous_.mp4",
+            "id": 700,
+            "label": "Inside Llewyn Davis",
+            "season": -1,
+            "showtitle": "",
+            "title": "Inside Llewyn Davis",
+            "type": "movie"
+        }
+    }
+}
+
+//For a TV show
+{
+    "id": 1,
+    "jsonrpc": "2.0",
+    "result": {
+        "item": {
+            "episode": 6,
+            "file": "smb://DISKSTATION/Media/Video/series/The Fall/Season 2/The Fall - 2x06 - In Summation.mkv",
+            "id": 1156,
+            "label": "Episode 6",
+            "season": 2,
+            "showtitle": "The Fall",
+            "title": "Episode 6",
+            "type": "episode"
+        }
+    }
+}
+
+
+//Result if nothing is playing:
+{
+    "error": {
+        "code": -32100,
+        "message": "Failed to execute method."
+    },
+    "id": 1,
+    "jsonrpc": "2.0"
+}
