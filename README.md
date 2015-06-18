@@ -5,9 +5,9 @@ See what was tweeted about the movie you're watching and join the conversation.
 
 In two ways:
 - It watches your Twitter stream and whenever you tweet something while you're watching the movie, a screenshot and your tweet are captured.
-- For every movie you start watching, the service looks if anyone has tweeted anything while [i]he[/i] (or [i]she[/i]) was watching it, and it shows the tweet on your screen at the moment that tweet was sent [i]in the movie[/i].
+- For every movie you start watching, the service looks if anyone has tweeted anything while he or she was watching it, and it shows the tweet on your screen at the moment that tweet was sent in the movie. In other words, you'll see what someone tweeted at the exact same moment in the video. (The tweet is displayed as an overlay on your video).
 
-The tweets (and screenshots) are collected at http://46.101.159.192/ (yeah, I still need a domain).
+The tweets (and screenshots) are collected at http://46.101.159.192/ (yeah, I still need a domain). 
 
 # Installation
 
